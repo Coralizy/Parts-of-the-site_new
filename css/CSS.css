@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p {font-size: 16px;}
+label {font-size: 18px;}
+p span {
+    background-color: green;
+}
+p::first-letter{
+    color: red;
+    font-size: 24px;
+}
+.zag{
+    color: orange;
+}
+li.veget{
+    color: red;
+}
+.head{
+    font-weight: 700;
+}
+table.less2{
+    width: 500px;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+td {
+    padding: 5px;
+    border: 1px solid black;
+   }
+.bold{
+    font-weight: 700;
+}
+.red{
+    color: orange;
+}
+.green{
+    background-color: green;
+}
+.bold,.green{
+    text-align: center;
+}
+label:not([p]){
+    color: red;
+}
+.blu,.orange,.gray{
+    font-size: 18px;
+    font-weight: 600;
+}
+.orange a{
+    color: orange;
+}
+.gray a{
+    color: #666;
+}
+table.less3 {
+    width: 90%;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+.parent > .child:nth-child(2n+3){
+    background-color: gray;
+}
+.parent:nth-child(even){
+    background-color: aquamarine;
+}
+.gri{
+    background-color: green;
+}
+.rd{
+    background-color: red;
+}
+.sky{
+    background-color: blue;
+}
+input:checked+.gri {
+    display: none;
+}
+/*Menu*/
+li.menu,.menu_one{
+    font-family: "Economica";
+    font-weight: 700;
+    font-size: 24px;
+    display: inline-block;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px 35px;
+    margin: 0 -5px;
+    
+}
+ul.mainmenu {
+    list-style: none;
+    margin: 0;
+    width: 900px;
+    padding-left: 0;
+ }
+li.menu a,
+.menu_one a {
+    text-decoration: none;
+    color: white;
+} 
+nav{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 900px;
+}
+li.menu_one{
+    
+}
+li.menu:hover,
+.menu_one:hover{
+    background-color: cadetblue;
+}
+.hidden{
+    height: 50px;
+}
+ul .mainmenu2{
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+    overflow: hidden;
+}
+li.menu2 a,
+.menu_one2 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+li.menu2,
+.menu_one2 {
+    font-family: "Economica";
+    font-weight: 700;
+    font-size: 24px;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px 35px;
+    float: left;
+}
+.hidden {
+    height: 50px;
+}
+li.one{
+    display: inline-block;
+    list-style-type: none;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.number{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+}
+.letter{
+    margin: 5px;
+}
+ul.pagerul{
+    background-color: #f3f3f3;
+    padding: 5px 0;
+    width: 60%;
+}
+.number:hover{
+    color: white;
+    background-color: blueviolet;
+}
