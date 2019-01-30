@@ -52,8 +52,9 @@ p.head2_l {
     padding: 9px 30px;
     font-weight: 500;
     margin-bottom: 1px;
-
-
+}
+.priceli_l img{
+    position: relative;
 }
 
 .priceli_l:nth-child(even) {
@@ -120,10 +121,10 @@ p.head2 {
     padding: 9px 30px;
     font-weight: 500;
     margin-bottom: 1px;
-
-
 }
-
+.priceli img {
+    position: relative;
+}
 .priceli:nth-child(even) {
     background-color: #f5f5f6;
 }
@@ -190,10 +191,10 @@ p.head2_r {
     padding: 9px 30px;
     font-weight: 500;
     margin-bottom: 1px;
-
-
 }
-
+.priceli_r img {
+    position: relative;
+}
 .priceli_r:nth-child(even) {
     background-color: #f5f5f6;
 }
